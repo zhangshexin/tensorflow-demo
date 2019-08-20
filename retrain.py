@@ -1178,7 +1178,7 @@ if __name__ == '__main__':
   parser.add_argument(
       '--intermediate_output_graphs_dir',
       type=str,
-      default='/tmp/intermediate_graph/',
+      default='tmp/intermediate_graph/',
       help='Where to save the intermediate graphs.'
   )
   parser.add_argument(
@@ -1199,7 +1199,7 @@ if __name__ == '__main__':
   parser.add_argument(
       '--summaries_dir',
       type=str,
-      default='/tmp/retrain_logs',
+      default='tmp/retrain_logs/',
       help='Where to save summary logs for TensorBoard.'
   )
   parser.add_argument(
@@ -1273,7 +1273,7 @@ if __name__ == '__main__':
   parser.add_argument(
       '--bottleneck_dir',
       type=str,
-      default='/tmp/bottleneck',
+      default='tmp/bottleneck/',
       help='Path to cache bottleneck layer values as files.'
   )
   parser.add_argument(
@@ -1342,7 +1342,7 @@ if __name__ == '__main__':
   parser.add_argument(
       '--checkpoint_path',
       type=str,
-      default='/tmp/retrain_checkpoint',
+      default='tmp/retrain_checkpoint/',
       help='Where to save checkpoint files.'
   )
   FLAGS, unparsed = parser.parse_known_args()

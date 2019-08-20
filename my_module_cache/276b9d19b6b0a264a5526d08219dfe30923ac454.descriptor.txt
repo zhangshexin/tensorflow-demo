@@ -1,0 +1,3 @@
+Module: https://tfhub.dev/google/imagenet/inception_v1/feature_vector/1
+Download Time: 2019-08-12 18:04:42.895329
+Downloader Hostname: DESKTOP-LN4GJ2L (PID:25468)

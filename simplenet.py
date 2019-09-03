@@ -5,7 +5,7 @@ import tensorflow as tf
 # tf_model_path = "D:/gitSpacePycharm/cc0output/mobilenet_2019_08_12_frozen.pb"
 # tf_model_path = "D:/gitSpacePycharm/cc0output/bak1/inception_v3_2016_08_28_frozen.pb"
 
-tf_model_path = "tmp/imagenet/classify_image_graph_def.pb"
+tf_model_path = "tmp2/frozen_inference_graph.pb"
 with open(tf_model_path , 'rb') as f:
     serialized = f.read()
 tf.reset_default_graph()
